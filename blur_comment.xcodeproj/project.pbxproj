@@ -17,6 +17,10 @@
 		B2E47A701B0AD97900C24B52 /* BlurCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E47A6F1B0AD97900C24B52 /* BlurCommentView.m */; };
 		B2E47A731B0AD9B800C24B52 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E47A721B0AD9B800C24B52 /* UIImageEffects.m */; };
 		B2E47A751B0ADFAC00C24B52 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2E47A741B0ADFAC00C24B52 /* 2@2x.png */; };
+		EB537F5E1CF55CEE00A3029A /* BlurCommentViewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB537F5D1CF55CEE00A3029A /* BlurCommentViewTwo.m */; };
+		EB537F641CF5806700A3029A /* DSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB537F631CF5806700A3029A /* DSTextView.m */; };
+		EB537F671CF580EE00A3029A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB537F661CF580EE00A3029A /* UIView+Extension.m */; };
+		EB537F6A1CF5816A00A3029A /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB537F691CF5816A00A3029A /* NSString+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		B2E47A711B0AD9B800C24B52 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
 		B2E47A721B0AD9B800C24B52 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
 		B2E47A741B0ADFAC00C24B52 /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2@2x.png"; path = "BlurCommentView/2@2x.png"; sourceTree = "<group>"; };
+		EB537F5C1CF55CEE00A3029A /* BlurCommentViewTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurCommentViewTwo.h; sourceTree = "<group>"; };
+		EB537F5D1CF55CEE00A3029A /* BlurCommentViewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurCommentViewTwo.m; sourceTree = "<group>"; };
+		EB537F621CF5806700A3029A /* DSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTextView.h; sourceTree = "<group>"; };
+		EB537F631CF5806700A3029A /* DSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTextView.m; sourceTree = "<group>"; };
+		EB537F651CF580EE00A3029A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EB537F661CF580EE00A3029A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		EB537F681CF5816A00A3029A /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		EB537F691CF5816A00A3029A /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,10 +144,18 @@
 		B2E47A6D1B0AD97900C24B52 /* BlurCommentView */ = {
 			isa = PBXGroup;
 			children = (
+				EB537F681CF5816A00A3029A /* NSString+Extension.h */,
+				EB537F691CF5816A00A3029A /* NSString+Extension.m */,
+				EB537F651CF580EE00A3029A /* UIView+Extension.h */,
+				EB537F661CF580EE00A3029A /* UIView+Extension.m */,
 				B2E47A711B0AD9B800C24B52 /* UIImageEffects.h */,
 				B2E47A721B0AD9B800C24B52 /* UIImageEffects.m */,
 				B2E47A6E1B0AD97900C24B52 /* BlurCommentView.h */,
 				B2E47A6F1B0AD97900C24B52 /* BlurCommentView.m */,
+				EB537F5C1CF55CEE00A3029A /* BlurCommentViewTwo.h */,
+				EB537F5D1CF55CEE00A3029A /* BlurCommentViewTwo.m */,
+				EB537F621CF5806700A3029A /* DSTextView.h */,
+				EB537F631CF5806700A3029A /* DSTextView.m */,
 			);
 			path = BlurCommentView;
 			sourceTree = "<group>";
@@ -241,10 +261,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB537F5E1CF55CEE00A3029A /* BlurCommentViewTwo.m in Sources */,
 				B2E47A481B0AC22300C24B52 /* ViewController.m in Sources */,
+				EB537F641CF5806700A3029A /* DSTextView.m in Sources */,
 				B2E47A451B0AC22300C24B52 /* AppDelegate.m in Sources */,
 				B2E47A421B0AC22300C24B52 /* main.m in Sources */,
 				B2E47A731B0AD9B800C24B52 /* UIImageEffects.m in Sources */,
+				EB537F671CF580EE00A3029A /* UIView+Extension.m in Sources */,
+				EB537F6A1CF5816A00A3029A /* NSString+Extension.m in Sources */,
 				B2E47A701B0AD97900C24B52 /* BlurCommentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
